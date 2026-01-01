@@ -1,7 +1,7 @@
 import telebot
 import os
 
-TOKEN = os.getenv("8523719492:AAHosr98JOOphYDXwx8he1fBWlnIeP4BIqc")
+TOKEN = os.getenv("TOKEN")
 ADMIN_ID = 5121402243
 
 bot = telebot.TeleBot(TOKEN)
@@ -54,3 +54,4 @@ def handle(message):
             user_data.pop(chat_id)
 
 bot.infinity_polling()
+
